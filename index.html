@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body class="lightMode">
+    <section class="search">
+      <div class="header">
+        <h1>devfinder</h1>
+        <span class="btn-dark-light light" style="display: none">
+          LIGHT<svg
+            class="sun icon"
+            width="20"
+            height="20"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g fill="#FFF" fill-rule="nonzero">
+              <path
+                d="M13.545 6.455c-.9-.9-2.17-1.481-3.545-1.481a4.934 4.934 0 00-3.545 1.481c-.9.9-1.481 2.17-1.481 3.545 0 1.376.582 2.646 1.481 3.545.9.9 2.17 1.481 3.545 1.481a4.934 4.934 0 003.545-1.481c.9-.9 1.481-2.17 1.481-3.545a4.934 4.934 0 00-1.481-3.545zM10 3.413a.7.7 0 00.688-.688V.688A.7.7 0 0010 0a.7.7 0 00-.688.688v2.037a.7.7 0 00.688.688zM15.635 5.344l1.455-1.455a.67.67 0 000-.952.67.67 0 00-.952 0l-1.455 1.455a.67.67 0 000 .952c.238.264.66.264.952 0zM19.312 9.312h-2.037a.7.7 0 00-.688.688.7.7 0 00.688.688h2.037A.7.7 0 0020 10a.7.7 0 00-.688-.688zM15.608 14.656a.67.67 0 00-.952 0 .67.67 0 000 .952l1.455 1.455a.67.67 0 00.952 0 .67.67 0 000-.952l-1.455-1.455zM10 16.587a.7.7 0 00-.688.688v2.037A.7.7 0 0010 20a.7.7 0 00.688-.688v-2.037a.7.7 0 00-.688-.688zM4.365 14.656L2.91 16.111a.67.67 0 000 .952.67.67 0 00.952 0l1.455-1.455a.67.67 0 000-.952c-.238-.264-.66-.264-.952 0zM3.413 10a.7.7 0 00-.688-.688H.688A.7.7 0 000 10a.7.7 0 00.688.688h2.037A.7.7 0 003.413 10zM4.365 5.344a.67.67 0 00.952 0 .67.67 0 000-.952L3.862 2.937a.67.67 0 00-.952 0 .67.67 0 000 .952l1.455 1.455z"
+              />
+            </g>
+          </svg>
+        </span>
+        <span class="btn-dark-light dark">
+          DARK <ion-icon class="" name="moon-outline"></ion-icon
+        ></span>
+      </div>
+      <div class="search-bar">
+        <input
+          class="search-input"
+          placeholder="Search GitHub username..."
+          type="text"
+        />
+        <ion-icon class="search-icon" name="search-outline"></ion-icon>
+        <button class="search-btn">Search</button>
+      </div>
+      <div class="account">
+        <div class="img-user">
+          <img class="user-img" src="image-avatar.png" alt="" />
+        </div>
+        <div class="user-details">
+          <div class="name-date">
+            <span class="name">The Octocat</span
+            ><span class="date">Joined 25 Jan 2011</span>
+          </div>
+          <span class="user-name">@octoca</span>
+          <p class="bio">This profile has no bio</p>
+          <div class="user-stats">
+            <div>
+              <p>Repos</p>
+              <span class="repos">8</span>
+            </div>
+            <div>
+              <p>Followers</p>
+              <span class="followers">1235</span>
+            </div>
+            <div>
+              <p>Following</p>
+              <span class="following">9</span>
+            </div>
+          </div>
+          <div class="more-about">
+            <div>
+              <a href="#" class=""
+                ><ion-icon class="icon" name="location-outline"></ion-icon>
+                <span class="location"> San Francisco</span></a
+              >
+              <a href="#" class=""
+                ><ion-icon class="icon github" name="logo-github"></ion-icon>
+                <span class="github-link"> https: //github.blog </span></a
+              >
+            </div>
+            <div>
+              <a class="not-available" href="#"
+                ><ion-icon class="twitter icon" name="logo-twitter"></ion-icon
+                ><span class="X-link">Not Available</span></a
+              ><a href="#"
+                ><svg
+                  class="company-icon icon"
+                  height="20"
+                  width="20"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g fill="#4b6a9b">
+                    <path
+                      d="M10.858 1.558L1.7.167A1.477 1.477 0 00.517.492 1.49 1.49 0 000 1.608v17.559c0 .458.375.833.833.833h2.709v-4.375c0-.808.65-1.458 1.458-1.458h2.083c.809 0 1.459.65 1.459 1.458V20h3.541V3a1.46 1.46 0 00-1.225-1.442zM4.583 12.292h-1.25a.625.625 0 010-1.25h1.25a.625.625 0 010 1.25zm0-2.5h-1.25a.625.625 0 010-1.25h1.25a.625.625 0 010 1.25zm0-2.5h-1.25a.625.625 0 010-1.25h1.25a.625.625 0 010 1.25zm0-2.5h-1.25a.625.625 0 010-1.25h1.25a.625.625 0 010 1.25zm4.167 7.5H7.5a.625.625 0 010-1.25h1.25a.625.625 0 010 1.25zm0-2.5H7.5a.625.625 0 010-1.25h1.25a.625.625 0 010 1.25zm0-2.5H7.5a.625.625 0 010-1.25h1.25a.625.625 0 010 1.25zm0-2.5H7.5a.625.625 0 010-1.25h1.25a.625.625 0 010 1.25zM18.85 9.035l-5.933-1.242V20h5.625A1.46 1.46 0 0020 18.542V10.46c0-.688-.47-1.274-1.15-1.425zM16.875 17.5h-1.25a.625.625 0 010-1.25h1.25a.625.625 0 010 1.25zm0-2.5h-1.25a.625.625 0 010-1.25h1.25a.625.625 0 010 1.25zm0-2.5h-1.25a.625.625 0 010-1.25h1.25a.625.625 0 010 1.25z"
+                    />
+                  </g>
+                </svg>
+                <span class="company"> @github</span></a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="js/index.js"></script>
+  </body>
+</html>
